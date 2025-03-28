@@ -19,4 +19,4 @@ The AR tool will enable users to toggle between different infrastructure layers,
 - **Unity 6**: The primary platform for developing the AR application.
 - **AR Foundation**: Unity's framework for building AR applications that support both iOS and Android.
 - **C#**: Programming language used for scripting interactions and logic.
-- **3D Models**: Optimized models for various urban elements, including roads, buildings, public transport infrastructure, and more.
+- **3D Models**: Optimized models for various urban elements, including roads, buildings, public transport infrastructure,and more.
