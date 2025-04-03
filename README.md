@@ -3,7 +3,7 @@
 ** Computer Science Honours Research Project **
 
 ## Project Overview
-This project aims to develop an **Augmented Reality (AR)-based educational tool** that visualizes proposed enhancements for Cape Town's **Foreshore Freeway Precinct**. The tool allows urban planners, architects, students, and the public to interact with a 3D model of the precinct and explore different urban design choices. These choices include improvements to pedestrian access, public transport integration, mixed-use developments, and optimized road networks.
+This project aims to develop an **Augmented Reality (AR) based educational tool** that visualizes proposed enhancements for Cape Town's **Foreshore Freeway Precinct**. The tool allows urban planners, architects, students, and the public to interact with a 3D model of the precinct and explore different urban design choices. These choices include improvements to pedestrian access, public transport integration, mixed-use developments, and optimized road networks.
 
 The AR tool will enable users to toggle between different infrastructure layers, compare sustainable and unsustainable planning approaches, and visualize key concepts in urban development in a localized and interactive way.
 
