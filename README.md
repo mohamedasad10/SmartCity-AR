@@ -1,6 +1,6 @@
 # Foreshore Freeway Precinct AR Urban Planning Tool
 
-**Computer Science Honours Research Project**
+## Computer Science Honours Research Project
 ![Alt text](Images/SmartCityAR.png)
 
 ## Project Overview
