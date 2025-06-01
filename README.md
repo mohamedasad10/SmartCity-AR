@@ -27,7 +27,7 @@ The AR tool will enable users to toggle between different infrastructure layers,
 ## Prototype Access
 The current working prototype of the AR application is available in the `PROTOTYPE` folder as an **APK file**.  
 To try it out:
-1. Download the APK to your Android device.
+1. Download the APK(smartcity_prototype.apk) to your Android device.
 2. Enable **"Install from Unknown Sources"** in your device settings.
 3. Open the APK file to install and run the application.
 
