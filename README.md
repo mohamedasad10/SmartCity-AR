@@ -23,3 +23,12 @@ The AR tool will enable users to toggle between different infrastructure layers,
 - **AR Foundation**: Unity's framework for building AR applications that support both iOS and Android.
 - **C#**: Programming language used for scripting interactions and logic.
 - **3D Models**: Optimized models for various urban elements, including roads, buildings, public transport infrastructure,and more.
+
+## Prototype Access
+The current working prototype of the AR application is available in the `PROTOTYPE` folder as an **APK file**.  
+To try it out:
+1. Download the APK to your Android device.
+2. Enable **"Install from Unknown Sources"** in your device settings.
+3. Open the APK file to install and run the application.
+
+> The prototype demonstrates the core AR functionality, including infrastructure layer toggles, real-time interaction, and immersive urban planning visualization.
