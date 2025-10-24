@@ -117,7 +117,6 @@ The architecture follows a modular, layered design to separate UI, AR logic, and
 * OpenStreetMap Data via Blender GIS
 * Unity AR Foundation Documentation
 * City of Cape Town – Foreshore Freeway Precinct Redevelopment Reports
-* Barry Boehm (1988): Spiral Model and Iterative Development Principles
 
 ---
 
