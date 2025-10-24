@@ -2,8 +2,8 @@
 # 🌆 SmartCity AR
 **An Augmented Reality viewer for sustainable urban planning in Cape Town’s Foreshore Freeway Precinct**
 
-Developed by **Mohamed Asad Bandarkar**
-<img src="Images/SmartCityAR.png" alt="SmartCity AR" width="400"/>
+
+<img src="Images/SmartCityAR_Title.png" alt="SmartCity AR" width="400"/>
 ---
 
 ## 🏙️ Overview
@@ -111,7 +111,7 @@ The architecture follows a modular, layered design to separate UI, AR logic, and
 ## 📸 Screenshots / Demo
 | Sustainable View | Unsustainable View | Traffic Simulation |
 | :---: | :---: | :---: |
-| (Add image here) | (Add image here) | (Add image here) |
+| <img src="Images/Sustainbale.png" alt="SmartCity AR" width="400"/> | <img src="Images/Unsustainable.png" alt="SmartCity AR" width="400"/> | (Add image here) |
 
 ## 📚 References
 * OpenStreetMap Data via Blender GIS
@@ -133,7 +133,7 @@ The architecture follows a modular, layered design to separate UI, AR logic, and
 **Mohamed Asad Bandarkar**
 
 * 📍 University of the Western Cape – BSc Honours Computer Science
-* 📧 [youremail@example.com]
+* 📧 [mohamedasad11914@gmail.com]
 * 🔗 [LinkedIn Profile](https://www.linkedin.com/in/mabandarkar/) |
 
 ---
