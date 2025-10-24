@@ -1,34 +1,139 @@
-# Foreshore Freeway Precinct AR Urban Planning Tool
 
-Computer Science Honours Research Project
+# 🌆 SmartCity AR
+**An Augmented Reality viewer for sustainable urban planning in Cape Town’s Foreshore Freeway Precinct**
 
+Developed by **Mohamed Asad Bandarkar**
 <img src="Images/SmartCityAR.png" alt="SmartCity AR" width="400"/>
+---
 
+## 🏙️ Overview
+SmartCity AR is an **Augmented Reality (AR)** application designed to help visualize urban planning proposals for **Cape Town’s Foreshore Freeway Precinct** — an area affected by traffic congestion, poor pedestrian access, and underutilized spaces.
 
-## Project Overview
-This project aims to develop an **Augmented Reality (AR) based educational tool** that visualizes proposed enhancements for Cape Town's **Foreshore Freeway Precinct**. The tool allows urban planners, architects, students, and the public to interact with a 3D model of the precinct and explore different urban design choices. These choices include improvements to pedestrian access, public transport integration, mixed-use developments, and optimized road networks.
+Traditional 2D maps and static diagrams fail to capture how different infrastructure systems interact in three dimensions. SmartCity AR bridges this gap by allowing **planners, architects, students, and the public** to explore 3D planning scenarios **interactively in real-world context**.
 
-The AR tool will enable users to toggle between different infrastructure layers, compare sustainable and unsustainable planning approaches, and visualize key concepts in urban development in a localized and interactive way.
+---
 
-## Key Features
-- **Interactive AR Visualization**: Explore the Foreshore Freeway Precinct in AR with various urban design layers.
-- **Pedestrian-Friendly Infrastructure**: Visualize and interact with proposed pedestrian walkways and spaces.
-- **Public Transport Integration**: See how improvements to the MyCiTi bus system and other transport hubs will impact mobility and reduce congestion.
-- **Mixed-Use Developments**: Explore the potential for mixed-use spaces beneath the freeway to improve land utilization.
-- **Toggle Layers**: Toggle between infrastructure layers (roads, public spaces, transport hubs, etc.) to visualize their interactions and potential impacts.
-- **Sustainable vs. Unsustainable Approaches**: Compare different planning scenarios to see how design choices affect connectivity, congestion, and urban growth.
+## 🎯 Project Goal
+To develop an AR-based visualization tool that allows users to:
 
-## Technologies Used
-- **Unity 6**: The primary platform for developing the AR application.
-- **AR Foundation**: Unity's framework for building AR applications that support both iOS and Android.
-- **C#**: Programming language used for scripting interactions and logic.
-- **3D Models**: Optimized models for various urban elements, including roads, buildings, public transport infrastructure,and more.
+* **Compare** Sustainable vs Unsustainable planning scenarios.
+* **Toggle** individual infrastructure layers such as roads, electricity, and water.
+* **Simulate** traffic flow across major routes.
+* **View** contextual information about city structures and proposed improvements.
 
-## Prototype Access
-The current working prototype of the AR application is available in the `PROTOTYPE` folder as an **APK file**.  
-To try it out:
-1. Download the APK(smartcity_prototype.apk) to your Android device.
-2. Enable **"Install from Unknown Sources"** in your device settings.
-3. Open the APK file to install and run the application.
+---
 
-> The prototype demonstrates the core AR functionality, including infrastructure layer toggles, real-time interaction, and immersive urban planning visualization.
+## 🧠 Problem Statement
+Cape Town’s Foreshore Freeway Precinct suffers from:
+
+* **Chronic traffic congestion**,
+* **Underutilized highway structures**, and
+* **Limited pedestrian accessibility**.
+
+Urban planning proposals are difficult to interpret because static tools can’t show 3D spatial relationships or mobility interactions. SmartCity AR provides an **interactive, immersive solution** to visualize and evaluate different urban design strategies.
+
+---
+
+## 🧩 Features
+### 🔹 Functional Features
+| Feature | Description |
+| :--- | :--- |
+| **Toggle Scenarios** | ✅ Toggle between Sustainable and Unsustainable scenarios. |
+| **Layer Control** | ✅ Enable/disable infrastructure layers — Roads, Electricity, Water. |
+| **Traffic Simulation** | ✅ View realistic traffic flow simulation using object pooling. |
+| **Model Navigation** | ✅ Navigate the model using camera focus buttons. |
+| **Contextual Info** | ✅ Interactive info buttons for contextual pop-ups. |
+| **Reset** | ✅ Reset functionality to return to the main menu. |
+
+### 🔹 Non-Functional Features
+* **Performance:** ⚡ Fast scene load time (average: 4.8 seconds).
+* **Frame Rate:** 🎮 Smooth performance at 30–46 FPS on mid-range Android devices.
+* **Usability:** 📱 Mobile-friendly UI with large, accessible touch buttons.
+* **Architecture:** 🏗️ Modular architecture for scalability and easy feature additions.
+
+---
+
+## 🏗️ System Architecture
+The architecture follows a modular, layered design to separate UI, AR logic, and simulation systems for scalability and maintainability.
+
+### Core Components
+| Component | Description |
+| :--- | :--- |
+| `ARAppController.cs` | Controls AR initialization and scene management. |
+| `UIController.cs` | Handles user input (toggles, buttons, navigation). |
+| `SceneManager.cs` | Manages loading and visibility of infrastructure layers. |
+| `RoadPath.cs` | Defines waypoints for vehicle movement. |
+| `TrafficSpawner.cs` | Uses object pooling for efficient traffic simulation. |
+| `CameraMoveTrigger.cs` | Handles camera transitions to key points of interest. |
+
+---
+
+## 🛠️ Tech Stack
+| Layer | Technology |
+| :--- | :--- |
+| **Engine** | Unity 2022 |
+| **Language** | C# |
+| **AR Framework** | AR Foundation (ARCore compatible) |
+| **3D Modeling** | Blender + Blender GIS (OpenStreetMap integration) |
+| **Version Control** | Git + GitHub |
+| **Target Platform** | Android (ARCore-supported devices) |
+
+---
+
+## 🧪 Testing
+| Test Type | Focus | Outcome | Future Optimization |
+| :--- | :--- | :--- | :--- |
+| **Functional Testing** | Infrastructure toggles, camera navigation, scenario switching | ✅ Passed | N/A |
+| **Performance Testing** | Scene load time, FPS consistency | ✅ Passed | N/A |
+| **Edge Cases** | All layers + full traffic on entry-level device | ⚠️ Slight FPS drop below 30 | Implement Level-of-Detail (LOD) for traffic vehicles 🚀 Planned |
+
+---
+
+## 📱 How to Run
+### 🔧 Requirements
+* Unity 2022 or later
+* Android device with ARCore support
+* USB cable for device deployment
+
+### ⚙️ Setup Steps
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/](https://github.com/)<your-username>/SmartCity-AR.git
+    cd SmartCity-AR
+    ```
+2.  Open the project in **Unity 2022**.
+3.  Ensure **AR Foundation** and **ARCore XR Plugin** are installed via the Package Manager.
+4.  Go to **Build Settings** → **Android** → **Build & Run**.
+5.  Launch the app on your AR-supported device.
+
+---
+
+## 📸 Screenshots / Demo
+| Sustainable View | Unsustainable View | Traffic Simulation |
+| :---: | :---: | :---: |
+| (Add image here) | (Add image here) | (Add image here) |
+
+## 📚 References
+* OpenStreetMap Data via Blender GIS
+* Unity AR Foundation Documentation
+* City of Cape Town – Foreshore Freeway Precinct Redevelopment Reports
+* Barry Boehm (1988): Spiral Model and Iterative Development Principles
+
+---
+
+## 💡 Future Work
+* Add **real-time traffic data integration**.
+* Implement **LOD (Level of Detail) optimization** for better performance.
+* Develop a **web-based AR viewer** for accessibility without an app.
+* Integrate **multi-user collaboration** using cloud anchors.
+
+---
+
+## 🧑‍💻 Author
+**Mohamed Asad Bandarkar**
+
+* 📍 University of the Western Cape – BSc Honours Computer Science
+* 📧 [youremail@example.com]
+* 🔗 [LinkedIn Profile](https://www.linkedin.com/in/mabandarkar/) |
+
+---
