@@ -111,7 +111,7 @@ The architecture follows a modular, layered design to separate UI, AR logic, and
 ## 📸 Screenshots / Demo
 | Sustainable View | Unsustainable View | Traffic Simulation |
 | :---: | :---: | :---: |
-| <img src="Images/Sustainbale.png" alt="SmartCity AR" width="400"/> | <img src="Images/Unsustainable.png" alt="SmartCity AR" width="400"/> | (Add image here) |
+| <img src="Images/Sustainbale.png" alt="SmartCity AR" width="400"/> | <img src="Images/Unsustainable.png" alt="SmartCity AR" width="400"/> | <img src="Images/Traffic Simulation.png" alt="SmartCity AR" width="400"/>|
 
 ## 📚 References
 * OpenStreetMap Data via Blender GIS
