@@ -1,7 +1,7 @@
 
 # 🌆 SmartCity AR
 **An Augmented Reality viewer for sustainable urban planning in Cape Town’s Foreshore Freeway Precinct**
-
+Google Sites Link: https://sites.google.com/myuwc.ac.za/smartcityar-masad-bandarkar/home 
 
 <img src="Images/SmartCityAR_Title.png" alt="SmartCity AR" width="400"/>
 ---
